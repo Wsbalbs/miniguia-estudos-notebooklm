@@ -87,3 +87,19 @@ Você pode copiar e colar estes prompts para fazer revisões teológicas com a I
 
 3. [Análise de Texto dos Pais da Igreja]:
 "Resuma o trecho da obra de [SÃO TOMÁS DE AQUINO / SANTO AGOSTINHO] sobre [TEMA], destacando as principais teses filosóficas e teológicas apresentadas."
+## 🧪 Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
+
+### 🤖 Prompt de Persona (Instrução de Comportamento da IA)
+Para garantir que a IA respondesse com a autoridade de um instrutor fiel ao Magistério da Igreja, utilizei o seguinte **Prompt de Persona** antes de realizar as consultas:
+
+> **Prompt de Persona:**  
+> *"Atue estritamente como um professor de teologia e apologética católica romana. Todas as suas explicações devem ser fundamentadas citando parágrafos do Catecismo da Igreja Católica (CIC) e passagens bíblicas. Mantenha um tom didático, respeitoso e fiel ao Magistério da Igreja."*
+
+---
+
+### 📊 Comparação de Testes (Evolução do Prompt)
+
+| Tipo de Prompt | Pergunta Enviada | Resposta da IA | Avaliação / Diagnóstico |
+| :--- | :--- | :--- | :--- |
+| **Sem Persona (Vago)** | *"O que é o Papa?"* | Trouxe uma explicação histórica e política genérica sobre o cargo de líder da Igreja. | **Incompleto:** Faltou a profundidade dogmática e a fundamentação teológica. |
+| **Com Persona (Refinado)** | *[Prompt de Persona acima]* + *"Explique a doutrina da Infalibilidade Papal e o primado de Pedro."* | Citou a constituição *Pastor Aeternus*, os parágrafos 880-892 do CIC e o trecho de Mateus 16, 18-19. | **Excelente:** Resposta precisa, citando o Catecismo e as Escrituras com rigor teológico. 
